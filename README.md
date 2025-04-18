@@ -49,8 +49,10 @@ npm install
 ```
 
 ### 3. **Create ``.env`` in the root directory for API keys**
+```bash
 NEXT_PUBLIC_WEATHER_API=your_openweather_api_key
 NEXT_PUBLIC_NEWS_API= your_newsdata_api_key
+```
 
 > **Note: CoinGecko API does not require authentication for basic usage, so no key is needed for it.**
 
