@@ -27,14 +27,14 @@ const Wishlist: React.FC = () => {
   );
 
   return (
-    <div className="w-full flex-col items-center justify-between mt-4">
+    <div className="w-full flex-col md:flex-row items-center justify-between mt-4">
       {/* Wishlist - Search Bar - Cities/Cryptos */}
-      <div className="w-full flex items-center justify-between mb-4">
+      <div className="w-full flex flex-wrap items-center md:justify-between justify-items-start mb-4 gap-3">
         <h1 className="w-full md:w-1/3 text-2xl font-bold text-[#379683] dark:text-[#46ffda]">
           Wishlist
         </h1>
 
-        <div className="w-full md:w-1/2 flex items-center justify-end h-10">
+        <div className="w-full md:w-1/2 flex items-center justify-items-start md:justify-end h-10">
           <div className="w-30 p-1 rounded-l-xl border-y-2 border-l-2 border-[#32A956] dark:border-[#212121] h-full flex items-center cursor-pointer">
             <div
               onClick={() => handleFilterClick("cities")}
