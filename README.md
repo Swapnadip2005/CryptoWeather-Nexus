@@ -4,8 +4,7 @@
 
 ## 🖥️ Live Preview
 
-🔗 **Live Demo**: [CryptoWeather Nexus](https://lnkd.in/gsFwyMqm)  
-📂 **GitHub Repo**: [GitHub Repository](https://lnkd.in/gnhNVEkp)
+🔗 **Live Demo**: [CryptoWeather Nexus](https://lnkd.in/gsFwyMqm)
 
 ## 🛠️ Tech Stack
 
@@ -31,8 +30,6 @@
 - 🌦 **[OpenWeather API](https://openweathermap.org/api)** – For real-time weather data
 - 💰 **[CoinGecko API](https://www.coingecko.com/en/api)** – For crypto market insights
 - 📰 **[NewsData.io API](https://newsdata.io/)** – For latest crypto news articles
-
-## 🔗 [Check out Live](https://cryptoweather-nexus-steel.vercel.app)
 
 ## 🧪 How to Run Locally
 
