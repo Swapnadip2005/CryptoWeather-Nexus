@@ -27,7 +27,7 @@ const initialState: NewsState = {
 export const fetchTopCryptoNews = createAsyncThunk(
   "news/fetchTopCrypto",
   async () => {
-    const API_KEY = process.env.NEXT_PUBLIC_NEWS_API_KEY;
+    const API_KEY = process.env.NEXT_PUBLIC_NEWS_API;
     const url = `https://newsdata.io/api/1/latest?apikey=${API_KEY}&q=crypto&language=en&size=5`;
 
     try {
